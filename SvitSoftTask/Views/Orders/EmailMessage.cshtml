@@ -1,0 +1,104 @@
+﻿@model SvitSoftTask.Models.Order
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Заказ покемона</title>
+</head>
+<body style="padding:0;background-color:#f1f2f6;">
+
+    <table style="border-spacing:0;width:100%;background-color:#f1f2f6;table-layout:fixed;">
+        <tr>
+            <td align="center" style="padding:20px 0 0 0;">
+                <center>
+                    <a href="http://www.svitsoft.com"><img src="http://www.svitsoft.com/assets/template/img/logonew.png" alt="Svitsoft Test Task" width="190" style="border-width:0;-ms-interpolation-mode:bicubic;margin:0 auto;" /></a>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <table style="border-spacing:0;width:100%;background-color:#f1f2f6;table-layout:fixed;">
+        <tr>
+            <td align="center" style="padding:0;">
+                <div style="font-size:40px;line-height:40px;height:40px;display:block;">&nbsp;</div>
+                <center>
+                    <table width="710" style="border-spacing:0;margin:0 auto;">
+                        <tr>
+                            <td width="100%" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;vertical-align:top;">
+                                <table width="100%" style="border-spacing:0;">
+                                    <tr>
+                                        <td width="100%" style="padding:0;vertical-align:top;height:3px;font-size:3px;line-height:3px;border-left-width:1px;border-left-style:solid;border-left-color:#e2e3e7;border-top-width:1px;border-top-style:solid;border-top-color:#e2e3e7;border-right-width:1px;border-right-style:solid;border-right-color:#e2e3e7;border-top-left-radius:3px;border-top-right-radius:3px;background-color:#ffffff;border-bottom-style:none;">
+                                            &nbsp;
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table width="712" style="border-spacing:0;margin:0 auto;">
+                        <tr>
+                            <td style="padding:0;background-color:#edeff3;width:1px;">&#8203;</td>
+                            <td style="padding:0;background-color:#e3e6ec;width:1px;">&#8203;</td>
+                            <td width="708" bgcolor="#ffffff" style="padding:0;margin:0 auto;">
+                                <table width="100%" style="border-spacing:0;">
+                                    <tr>
+                                        <td style="vertical-align:top;padding:50px 70px 25px 70px;">
+                                            <table width="100%" style="border-spacing:0;">
+                                                <tr>
+                                                    <td style="padding:0;">
+                                                        <p style="margin-top:0;font-weight:normal;color:#677483;font-family:sans-serif;font-size:14px;line-height:25px;margin-bottom:15px;">
+                                                            <b style="color:#445359;">Уважаемый, @Model.ClientName!</b>
+                                                        </p>
+                                                        <p style="margin-top:0;font-weight:normal;color:#677483;font-family:sans-serif;font-size:14px;line-height:25px;margin-bottom:15px;">
+                                                            Вы заказали покемона на нашем сайте. <br/> 
+                                                            Спасибо Вам за пользование нашим сайтом<br />
+                                                            <br />
+                                                        </p>
+                                                        <a href="@Url.Action("Index", "Orders", new {}, "http")" title="Просмотр ленты">Перейти на сайт</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="padding:0;background-color:#e3e6ec;width:1px;">&#8203;</td>
+                            <td style="padding:0;background-color:#edeff3;width:1px;">&#8203;</td>
+                        </tr>
+                    </table>
+
+                    <table width="710" style="border-spacing:0;margin:0 auto;">
+                        <tr>
+                            <td style="padding:0;vertical-align:top;">
+                                <table width="100%" style="border-spacing:0;">
+                                    <tr>
+                                        <td width="710" style="background-color:#ffffff;padding:0;height:3px;font-size:3px;line-height:3px;border-left-width:1px;border-left-style:solid;border-left-color:#e2e3e7;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#e2e3e7;border-right-width:1px;border-right-style:solid;border-right-color:#e2e3e7;border-bottom-left-radius:3px;border-bottom-right-radius:3px;">
+                                            &#8203;
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="708" style="border-spacing:0;margin:0 auto;">
+                        <tr style="font-size:1px;line-height:1px;"><td style="padding:0;vertical-align:top;background-color:#e3e6ec;width:1px;">&#8203;</td></tr>
+                    </table>
+                    <table width="706" style="border-spacing:0;margin:0 auto;">
+                        <tr style="font-size:1px;line-height:1px;"><td style="padding:0;vertical-align:top;background-color:#e6e9ee;width:1px;">&#8203;</td></tr>
+                    </table>
+                    <table width="704" style="border-spacing:0;margin:0 auto;">
+                        <tr style="font-size:1px;line-height:1px;"><td style="padding:0;vertical-align:top;background-color:#edeff3;width:1px;">&#8203;</td></tr>
+                    </table>
+                    <table width="700" style="border-spacing:0;margin:0 auto;">
+                        <tr style="font-size:1px;line-height:1px;"><td style="padding:0;vertical-align:top;background-color:#edeff3;width:1px;">&#8203;</td></tr>
+                    </table>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>  
+
